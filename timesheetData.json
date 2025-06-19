@@ -1,0 +1,68 @@
+{
+  "Employees": [
+    {
+      "EmployeeId": 1,
+      "Name": "John Doe",
+      "Email": "john.doe@wefengineering.com"
+    },
+    {
+      "EmployeeId": 2,
+      "Name": "Jane Smith",
+      "Email": "jane.smith@wefengineering.com"
+    }
+  ],
+  "Jobs": [
+    {
+      "JobId": 1,
+      "JobName": "software developing",
+      "TotalHours": 40.0
+    },
+    {
+      "JobId": 2,
+      "JobName": "farming",
+      "TotalHours": 35.0
+    },
+    {
+      "JobId": 3,
+      "JobName": "consulting",
+      "TotalHours": 20.0
+    }
+  ],
+  "Timesheets": [
+    {
+      "TimesheetID": 1,
+      "EmployeeId": 1,
+      "JobId": 1,
+      "WorkDate": "2025-06-02T00:00:00",
+      "HoursWorked": 8.0
+    },
+    {
+      "TimesheetID": 2,
+      "EmployeeId": 1,
+      "JobId": 1,
+      "WorkDate": "2025-06-03T00:00:00",
+      "HoursWorked": 8.0
+    },
+    {
+      "TimesheetID": 3,
+      "EmployeeId": 1,
+      "JobId": 2,
+      "WorkDate": "2025-06-04T00:00:00",
+      "HoursWorked": 8.0
+    },
+    {
+      "TimesheetID": 4,
+      "EmployeeId": 2,
+      "JobId": 1,
+      "WorkDate": "2025-06-02T00:00:00",
+      "HoursWorked": 6.0
+    },
+    {
+      "TimesheetID": 5,
+      "EmployeeId": 2,
+      "JobId": 3,
+      "WorkDate": "2025-06-05T00:00:00",
+      "HoursWorked": 4.0
+    }
+  ]
+}
